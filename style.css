@@ -1,0 +1,133 @@
+#gamearea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    width: 500px;
+    height: 500px;
+    border: solid gray 5px;
+    border-radius: 10px;
+    background-image:url("background.png");
+}
+
+#deaths {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#counter{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 250px;
+    margin-left: -150px;
+    margin-top: -150px;
+    padding-top: 50px;
+    font-size: 26px;
+    font-weight: bold;
+    border: solid #008000 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 220, 0, 0.7);
+    z-index: 4;
+    text-align: center;
+
+}
+
+#inputButton{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 50px;
+    height: 20px;
+    margin-left: -25px;
+    margin-top: -10px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(255, 95, 0);
+    padding: 8px;
+    border: 2px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 4;
+    text-align: center;
+
+}
+
+
+#toplist {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 20%;
+
+}
+
+th{
+    background-color: tomato;
+    height: 30px;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+caption {
+    font-size: 24px;
+    padding:10px;
+    font-weight: bold;
+}
+
+#restartButton {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    background-color: #45e041;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#star {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    content:url("star.png");
+    z-index: 2;
+}
+
+.ball {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    content:url("ball.png");
+    z-index: 3;
+}
+
+.triangle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    content:url("triangle.png");
+    z-index: 1;
+}
