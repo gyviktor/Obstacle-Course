@@ -20,10 +20,10 @@ var myInterval;
 var ballAnimation;
 var name;
 var input, inputButton;
-var music = new Audio("bg.mp3");
-var sound = new Audio("point.mp3");
-var death = new Audio("death.mp3");
-music.loop = true;
+var music = new Audio("src/bg.mp3");
+var sound = new Audio("src/point.mp3");
+var death = new Audio("src/death.mp3");
+
 
 
 function levelOne() {
@@ -356,6 +356,7 @@ $(function () {
     addElements();
     levelOne();
     music.play();
+	music.loop = true;
     $(this).on('keydown', moveStar);
     $("#deaths").html("Deaths: " + deaths);
     $("#counter").html("Time: " + counter);
